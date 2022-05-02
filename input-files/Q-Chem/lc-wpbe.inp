@@ -1,0 +1,34 @@
+$molecule
+  read mol.mol
+$end
+
+$rem
+  jobtype               sp
+  basis                 def2-qzvp
+  method                LC-wPBE08
+  omega                 450
+  thresh                11
+  scf_convergence       8
+  sym_ignore            true
+$end
+
+@@@
+
+$molecule
+  read
+$end
+
+$rem
+  jobtype               sp
+  basis                 def2-qzvp
+  method                LC-wPBE08
+  omega                 400
+  scf_guess             read
+  thresh                11
+  scf_convergence       8
+  sym_ignore            true
+$end
+
+@@@
+
+...

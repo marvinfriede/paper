@@ -1,0 +1,47 @@
+$molecule
+  read mol.mol
+$end
+
+$rem
+  jobtype               sp
+  basis                 def2-qzvp
+  exchange              gen
+  lrc_dft               true
+  omega                 450
+  thresh                11
+  scf_convergence       8
+  sym_ignore            true
+$end
+
+$xc_functional
+  X   muB88     1.00
+  X   HF        0.00
+  C   LYP       1.00
+$end
+
+@@@
+
+$molecule
+  read
+$end
+
+$rem
+  jobtype               sp
+  basis                 def2-qzvp
+  exchange              gen
+  lrc_dft               true
+  omega                 400
+  thresh                11
+  scf_guess             read
+  sym_ignore            true
+$end
+
+$xc_functional
+  X   muB88     1.00
+  X   HF        0.00
+  C   LYP       1.00
+$end
+
+@@@
+
+...

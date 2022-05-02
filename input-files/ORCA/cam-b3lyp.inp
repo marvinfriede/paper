@@ -1,0 +1,31 @@
+!CAM-B3LYP def2-QZVP SCFCONV8 RIJCOSX def2/J
+
+%method
+  RangeSepEXX True
+  RangeSepMu  0.45
+end
+
+*xyzfile 0 1 mol.xyz
+
+
+$new_job
+
+
+!CAM-B3LYP def2-QZVP SCFCONV8 RIJCOSX def2/J
+
+%scf
+  Guess MORead
+end
+
+%method
+  RangeSepEXX True
+  RangeSepMu  0.4
+end
+
+*xyzfile 0 1 mol.xyz
+
+
+$new_job
+
+
+...

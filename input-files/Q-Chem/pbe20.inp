@@ -1,0 +1,18 @@
+$molecule
+  read mol.mol
+$end
+
+$rem
+  jobtype               sp
+  basis                 def2-qzvp
+  exchange              gen
+  correlation           none
+  thresh                11
+  sym_ignore            true
+$end
+
+$xc_functional
+  X   PBE     0.80
+  X   HF      0.20
+  C   PBE     1.00
+$end

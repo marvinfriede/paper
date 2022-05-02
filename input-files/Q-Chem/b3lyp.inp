@@ -1,0 +1,12 @@
+$molecule
+  read mol.mol
+$end
+
+$rem
+  jobtype               sp
+  basis                 def2-qzvp
+  method                B3LYP
+  thresh                11
+  scf_convergence       8
+  sym_ignore            true
+$end
