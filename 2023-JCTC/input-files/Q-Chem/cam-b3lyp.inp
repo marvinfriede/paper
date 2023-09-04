@@ -5,18 +5,12 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
-  exchange              gen
-  lrc_dft               true
+  ecp                   def2-ecp
+  method                CAM-B3LYP
   omega                 450
   thresh                11
   scf_convergence       8
   sym_ignore            true
-$end
-
-$xc_functional
-  X   muB88     1.00
-  X   HF        0.00
-  C   LYP       1.00
 $end
 
 @@@
@@ -28,18 +22,13 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
-  exchange              gen
-  lrc_dft               true
+  ecp                   def2-ecp
+  method                CAM-B3LYP
   omega                 400
-  thresh                11
   scf_guess             read
+  thresh                11
+  scf_convergence       8
   sym_ignore            true
-$end
-
-$xc_functional
-  X   muB88     1.00
-  X   HF        0.00
-  C   LYP       1.00
 $end
 
 @@@

@@ -5,7 +5,8 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
-  method                BLYP
+  ecp                   def2-ecp
+  method                B3LYP
   thresh                11
   scf_convergence       8
   sym_ignore            true

@@ -5,6 +5,7 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
+  ecp                   def2-ecp
   method                LRC-wPBEh
   omega                 450
   thresh                11
@@ -21,6 +22,7 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
+  ecp                   def2-ecp
   method                LRC-wPBEh
   omega                 400
   scf_guess             read

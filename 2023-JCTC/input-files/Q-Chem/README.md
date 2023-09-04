@@ -13,3 +13,5 @@ For the large systems of the L7 benchmark, the SCF calculations converged very s
 In fact, Q-Chem only recommends `scf_convergence 5` for single point energies. The cutoff for the neglect of two-electron integrals `thresh` is left at 10<sup>-11</sup>.
 
 Other algorithms (e.g. Geometric Direct Minimization) did not provide improvements concerning SCF convergence.
+
+Note that the ECPs have to be given explicitly in the input files. Q-Chem does not pick them automatically (like ORCA) but runs the calculation anyway.

@@ -5,14 +5,9 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
-  exchange              gen
-  correlation           none
+  method                BLYP
+  ecp                   def2-ecp
   thresh                11
+  scf_convergence       8
   sym_ignore            true
-$end
-
-$xc_functional
-  X   PBE     0.80
-  X   HF      0.20
-  C   PBE     1.00
 $end

@@ -5,7 +5,8 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
-  method                CAM-QTP01
+  ecp                   def2-ecp
+  method                LC-wPBE08
   omega                 450
   thresh                11
   scf_convergence       8
@@ -21,7 +22,8 @@ $end
 $rem
   jobtype               sp
   basis                 def2-qzvp
-  method                CAM-QTP01
+  ecp                   def2-ecp
+  method                LC-wPBE08
   omega                 400
   scf_guess             read
   thresh                11
