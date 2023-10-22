@@ -11,9 +11,11 @@ J. Chem. Theory Comput. 2023.
 
 ## Contents
 
-This repository contains example input files for calculations with the range-separated hybrid functionals investigated in the paper.
+This repository contains [example input files](input-files) for calculations with the range-separated hybrid functionals investigated in the paper.
 
-Additionally, the potential energy surfaces for all six functionals are shown for the whole DFT-D4 fit set consisting of S22x5, S66x8, and NCIBLIND10.
+Additionally, the [potential energy surfaces](PES) for all six functionals are shown for the whole DFT-D4 fit set consisting of S22x5, S66x8, and NCIBLIND10.
+
+Finally, raw electronic energies are provided in the [data](data) directory.
 
 
 ## Overview: Range-separated Hybrid Functionals
